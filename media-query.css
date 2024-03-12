@@ -1,0 +1,44 @@
+@media (max-width: 950px) {
+  .entrevista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .texto-entrevista {
+    text-align: center;
+  }
+  .paragrafo-entrevista {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .imagem-laboratorio {
+    width: 80%;
+  }
+  .paragrafo-laboratorio {
+    font-size: 20px;
+  }
+}
+@media (max-width: 630px) {
+  .imagem-mariana {
+    width: 90%;
+  }
+}
+@media (max-width: 590px) {
+  .robo-cirurgia {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .paragrafo-medicina-tech {
+    font-size: 35px;
+  }
+}
+@media (max-width: 740px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+  }
+}
