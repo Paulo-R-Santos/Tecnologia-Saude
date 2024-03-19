@@ -12,15 +12,19 @@
   }
 }
 
+/* Deixar as imagens todas com a mesma largura */
+
 @media (max-width: 720px) {
-  .imagem-laboratorio {
+  .imagem-laboratorio,
+  .imagem-mariana,
+  .robo-cirurgia {
     width: 80%;
   }
   .paragrafo-laboratorio {
     font-size: 20px;
   }
 }
-@media (max-width: 630px) {
+/* @media (max-width: 630px) {
   .imagem-mariana {
     width: 90%;
   }
@@ -29,7 +33,7 @@
   .robo-cirurgia {
     width: 80%;
   }
-}
+} */
 @media (max-width: 500px) {
   .paragrafo-medicina-tech {
     font-size: 35px;
@@ -37,7 +41,7 @@
 }
 @media (max-width: 740px) {
   main {
-    max-width: 1200px;
+    max-width: 1200px;  /*  Não faz sentido colocar largura máxima de 1200px dentro de uma regra onde a largura max da tela é 740px. Essa regra do main deve ser aplicada no css normal, não na responsividade  */
     margin: 0 auto;
     width: 90%;
   }
